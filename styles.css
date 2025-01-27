@@ -412,7 +412,8 @@ body, html {
     justify-content: center;
     background: transparent; /* Ensures the background is transparent */
     font-family: "Fredoka", sans-serif;
-
+    border: 1px solid #000000;
+    border-radius: 2px;
 }
 
 .popup-gridform select {
@@ -423,8 +424,9 @@ body, html {
     justify-content: center;
     background: transparent; /* Ensures the background is transparent */
     font-family: "Fredoka", sans-serif;
-   font-size: 9px; /* Small text size */
-
+   font-size: 12px; /* Small text size */
+   border: 1px solid #000000;
+   border-radius: 2px;
 }
 
 #tutorialExitButton, #CAFExitButton, #aboutExitButton, #flowerExitButton, #possibleflowerExitButton, #breedableExitButton, #allflowersExitButton, #customizeExitButton, #settingsExitButton {
