@@ -30,7 +30,7 @@ The **[HKIA Flower Generator](https://flowerfulpowerful.github.io/hkiaflowergen/
 - **Added New Audio SFX:** *Updated the SFX for the "Exit" buttons & added a sound during Paint Mode (when the user presses on a square/cell).*
 - **Bug Fixes:** *Fixed minor bugs and continued to improve mobile user support (though a continued effort).*
 ### Work in progress/Incomplete features:
-- **See Version 1.0.0 List:** *Continued efforts towards those listed there.*
+- **See [Version 1.0.0](https://github.com/flowerfulpowerful/hkiaflowergen/tree/main?tab=readme-ov-file#version-100) List:** *Continued efforts towards those listed there.*
 - **Mobile Compatibility:** *Make larger grids more accessible for smaller devices (maximum grid size: 20x20).* <sub><sup> *I'm struggling to do this so if anyone can offer insight, please send a message in "Issues" <3* <sub><sup>
 
 ## Version 1.0.6
