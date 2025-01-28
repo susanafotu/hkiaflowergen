@@ -29,6 +29,9 @@ The **[HKIA Flower Generator](https://flowerfulpowerful.github.io/hkiaflowergen/
 - **Added Auto Plot Generator (Feature):** *Use the "Plot Layout" feature in the Grid Customization menu to generate preset flower plot layouts. These flower plot layouts are identical to the ones seen in-game. Selecting the "None" option will allow the user to create their own custom grids (10x10 maximum size).*
 - **Added New Audio SFX:** *Updated the SFX for the "Exit" buttons & added a sound during Paint Mode (when the user presses on a square/cell).*
 - **Bug Fixes:** *Fixed minor bugs and continued to improve mobile user support (though a continued effort).*
+### Work in progress/Incomplete features:
+- **See Version 1.0.0 List:** *Continued efforts towards those listed there.*
+- **Mobile Compatibility:** *Make larger grids more accessible for smaller devices (maximum grid size: 20x20).* <sub><sup> *I'm struggling to do this so if anyone can offer insight, please send a message in "Issues" <3* <sub><sup>
 
 ## Version 1.0.6
 ### Updates:
