@@ -24,6 +24,10 @@ The **[HKIA Flower Generator](https://flowerfulpowerful.github.io/hkiaflowergen/
 
 - **[Flower "tips & tricks" graphics](https://discord.com/channels/1105575633943277629/1274566291264376983/1274583662628704361)**
 
+## Version 1.5.1
+### Work in progress/Incomplete features:
+- **Update List of Flowers:** *Added Rose + their pattern to the generator.*
+
 ## Version 1.5.0
 ### Updates:
 - **Added Auto Plot Generator (Feature):** *Use the "Plot Layout" feature in the Grid Customization menu to generate preset flower plot layouts. These flower plot layouts are identical to the ones seen in-game. Selecting the "None" option will allow the user to create their own custom grids (10x10 maximum size).*
