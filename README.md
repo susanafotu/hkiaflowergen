@@ -24,9 +24,12 @@ The **[HKIA Flower Generator](https://flowerfulpowerful.github.io/hkiaflowergen/
 
 - **[Flower "tips & tricks" graphics](https://discord.com/channels/1105575633943277629/1274566291264376983/1274583662628704361)**
 
+
 ## Version 1.5.1
-### Work in progress/Incomplete features:
-- **Update List of Flowers:** *Added Rose + their pattern to the generator.*
+### Updates:
+- **List of Flowers:** *Added Rose + their pattern to the generator.*
+### New Feature Notes:
+- **Event Flowers:** *Event flowers have 5% spawn chance outside of the Greenhouse ONLY during events. We currently don't calculate the 5% when the Greenhouse Toggle is OFF; however, we are brainstorming a possible feature that will represent this 5% spawning chance ONLY during events.*
 
 ## Version 1.5.0
 ### Updates:
