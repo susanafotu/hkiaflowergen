@@ -548,7 +548,6 @@ body, html {
 
 
 /* GRID STUFF */
-
 .grid-container {
     padding: 0 20px 50px; /* Add padding to prevent content from touching the edges */
     display: flex;
@@ -582,6 +581,7 @@ body, html {
     }
 }
 
+/* GRID BOXES */
 .grid div {
     width: 50px;
     height: 50px;
@@ -777,9 +777,7 @@ body, html {
         /* Removed position: absolute; */
         /* Removed top, left, and transform properties */
         /* Use position: relative; if you still need to position elements within the container */
-        /* align-items: center; */
-        /* justify-content: center; */
-        overflow-x: scroll;
+        align-items: center;
     }
     
     .title-image {
