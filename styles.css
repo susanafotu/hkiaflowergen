@@ -550,14 +550,14 @@ body, html {
 /* GRID STUFF */
 
 .grid-container {
-    overflow-x: scroll; /* Allow horizontal scrolling */
-    padding: 0 20px; /* Add padding to prevent content from touching the edges */
+    /* overflow-x: scroll; Allow horizontal scrolling */
+    padding: 0 20px 50px; /* Add padding to prevent content from touching the edges */
     display: flex;
     /* align-items: center; */
     justify-content: center;
     position: absolute;
     min-width: 98%;
-
+    
     @media (max-width: 450px){
         display: block;
     }
@@ -573,6 +573,7 @@ body, html {
     width: 600px; /* Set a fixed width for larger screens */
     /* margin: 0 auto; */
     margin-top: 20px; /* Add margin to separate grid from buttons */
+    overflow: scroll;
     /* justify-content: center; */
     
     @media (max-width: 450px) {
@@ -581,7 +582,7 @@ body, html {
         gap: 5px;
         column-gap: 2px;
         width: 100%; /* Use full width for small screens */
-        max-width: none; /* Remove max-width restriction */
+        /* max-width: none; */ /* Remove max-width restriction */
         box-sizing: border-box;
     }
 }
