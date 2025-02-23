@@ -560,6 +560,21 @@ body, html {
     margin: 0 auto;
     margin-top: 20px; /* Add margin to separate grid from buttons */
     justify-content: center;
+
+    @media (max-width: 450px){
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        gap: 5px;
+        column-gap: 2px;
+        width: auto;
+        max-width: 90%; /* Optional: adjust to control maximum width */
+        margin: 0 auto; /* Ensures the grid stays centered */
+        padding-left: 30px; /* Adjust as needed */
+        padding-right: 30px; /* Adjust as needed */
+        box-sizing: border-box; /* Includes padding within the grid's width */
+
+    }
 }
 
 .grid div {
@@ -577,7 +592,36 @@ body, html {
     word-wrap: break-word;
     transition: transform 0.2s ease; /* Smooth scaling transition */
     border-radius: 10px; /* Add rounded corners */
+
+    @media (max-width: 450px){
+        width: 30px;
+        height: 30px;
+
+        font-size: 5px; /* Adjusted font size */
+        
+    }
 }
+
+/* IDK THIS KINDA WORKS BUT really DOESN'T SO KEEP ABOVE CODE FOR NOW */
+ /*   .grid {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        gap: 2px;
+        width: 100%; /* Make the grid container fill the available width */
+ /*       max-width: 100%; /* Keep the grid within 90% of the viewport width */
+ /*       margin: 0 auto; /* Center the grid horizontally */
+ /*       aspect-ratio: 1 / 1; /* Maintain a square aspect ratio for the grid */
+ /*       padding: 0px 0px; /* Optional: Add horizontal padding */
+ /*       box-sizing: border-box; /* Includes padding and border in the width calculation */
+ /*   }
+    
+    .grid div {
+        width: 100%; /* Make each cell automatically resize based on the container */
+ /*       height: auto; /* Maintain proportional height */
+ /*       aspect-ratio: 1 / 1; /* Ensure square cells */
+ /*       font-size: 5px; /* Adjusted font size */
+ /*   } */
 
 .grid div:hover {
     transform: scale(1.2); /* Scale the square on hover */
@@ -743,49 +787,6 @@ body, html {
         
        
     }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-        gap: 5px;
-        column-gap: 2px;
-        width: auto;
-        max-width: 90%; /* Optional: adjust to control maximum width */
-        margin: 0 auto; /* Ensures the grid stays centered */
-        padding-left: 30px; /* Adjust as needed */
-        padding-right: 30px; /* Adjust as needed */
-        box-sizing: border-box; /* Includes padding within the grid's width */
-    }
-
-    .grid div {
-        width: 30px;
-        height: 30px;
-
-        font-size: 5px; /* Adjusted font size */
-    }
-
-/* IDK THIS KINDA WORKS BUT really DOESN'T SO KEEP ABOVE CODE FOR NOW */
- /*   .grid {
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-        gap: 2px;
-        width: 100%; /* Make the grid container fill the available width */
- /*       max-width: 100%; /* Keep the grid within 90% of the viewport width */
- /*       margin: 0 auto; /* Center the grid horizontally */
- /*       aspect-ratio: 1 / 1; /* Maintain a square aspect ratio for the grid */
- /*       padding: 0px 0px; /* Optional: Add horizontal padding */
- /*       box-sizing: border-box; /* Includes padding and border in the width calculation */
- /*   }
-    
-    .grid div {
-        width: 100%; /* Make each cell automatically resize based on the container */
- /*       height: auto; /* Maintain proportional height */
- /*       aspect-ratio: 1 / 1; /* Ensure square cells */
- /*       font-size: 5px; /* Adjusted font size */
- /*   } */
-
 
     .container {
         text-align: center;
