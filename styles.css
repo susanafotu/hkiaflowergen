@@ -556,7 +556,11 @@ body, html {
     /* align-items: center; */
     justify-content: center;
     position: absolute;
-    min-width: 95%;
+    min-width: 98%;
+
+    @media (max-width: 450px){
+        display: block;
+    }
 }
 
 .grid {
@@ -565,12 +569,12 @@ body, html {
     grid-template-rows: repeat(10, 1fr);
     gap: 5px;
     column-gap: 2px;
-    max-width: 100%; /* Use full width to allow centering */
-    /* width: 600px; */ /* Set a fixed width for larger screens */
+    max-width: 100% !important; /* Use full width to allow centering */
+    width: 600px; /* Set a fixed width for larger screens */
     /* margin: 0 auto; */
     margin-top: 20px; /* Add margin to separate grid from buttons */
     /* justify-content: center; */
-
+    
     @media (max-width: 450px) {
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(10, 1fr);
