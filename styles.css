@@ -566,8 +566,8 @@ body, html {
     grid-template-rows: repeat(10, 1fr);
     gap: 5px;
     column-gap: 2px;
-    max-width: 100% !important; /* Use full width to allow centering */
-    width: 600px;
+    max-width: -webkit-fill-available !important; /* Use full width to allow centering */
+    width: fit-content;
     margin-top: 20px; /* Add margin to separate grid from buttons */
     overflow: scroll;
     
